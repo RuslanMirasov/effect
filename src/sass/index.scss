@@ -1,16 +1,18 @@
-@import './refs';
-@import './reset';
-@import './animations';
-@import './fonts';
-@import './popup';
-@import './form';
-@import './typography';
-@import './body';
-@import './buttons';
-@import './header';
-@import './hero';
-@import './footer';
-@import './components/navigation';
-@import './components/burger';
-@import './components/theme-switcher';
-@import './components/preloader';
+.effect {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#gradient-canvas {
+  width: 100%;
+  height: 100%;
+  --gradient-color-1: #bfdaf8;
+  --gradient-color-2: #a8c6e9;
+  --gradient-color-3: #babff9;
+  --gradient-color-4: #e7e1fd;
+}
